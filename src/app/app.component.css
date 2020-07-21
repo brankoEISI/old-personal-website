@@ -1,3 +1,13 @@
 .mat-tab-group {
     margin-bottom: 48px;
   }
+
+.mat-tab-label {
+    color: #fff;
+    opacity: 1;
+}
+
+.mat-tab-label.mat-tab-label-active{
+  color: #fff;
+  opacity: 1;
+}
