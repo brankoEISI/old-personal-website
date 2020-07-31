@@ -16,7 +16,8 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { MyWorkComponent } from './my-work/my-work.component';
 import { ContactComponent } from './contact/contact.component';
-import {MatCardModule} from '@angular/material/card';
+import { MatCardModule } from '@angular/material/card';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -38,7 +39,8 @@ import {MatCardModule} from '@angular/material/card';
     MatListModule,
     MatTabsModule,
     MatCardModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -28,3 +28,25 @@
   ::ng-deep .mat-card{
     background-color:#424242 !important;
   }
+
+
+  .about-me-card{
+    height: 100%;
+  }
+
+.about-me{
+  line-height: 15;
+}
+
+.border{
+  border: 1px solid #dee2e6 !important;
+}
+
+.job{
+  line-height: 10px;
+  font-size: 3.3rem;
+}
+
+.name{
+  font-size: 2.8rem;
+}
