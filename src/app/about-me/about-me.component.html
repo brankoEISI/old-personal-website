@@ -1,22 +1,18 @@
-<div fxFlex fxLayout="column" class="about-me">
-	<div fxFlex.gt-lg="75" fxFlex.gt-md="33.33" fxFlex.gt-xs="100" fxFlex="100" *ngFor="let contact of contacts">
-		<mat-card>
-			<mat-card-content class="text-center">
-        <div fxLayout="column" fxLayoutAlign="start center">
-          <div>
-            <img src="assets/me.jpeg" class="img-circle p-5" width="750">
-          </div>
-          <div>
-            <h4 class="card-title m-t-15 m-b-0 name">{{ contact.contactname }}</h4>
-          </div>
-          <div class="job">
-            <small class="text-muted">Software Engineer</small>
-          </div>
-          <div class="m-t-20">
-            <button mat-raised-button class="m-r-5" color="primary">Contact</button>
-          </div>
-        </div>
-      </mat-card-content>
-		</mat-card>
-	</div>
+<div fxFlex="100" fxLayout="column" class="about-me">
+  <div fxFlex="100">
+    <div class="about-me" fxLayout="column" fxLayoutAlign="start center">
+      <div fxFlex="25" fxLayoutAlign="start">
+        <img src="assets/me4.jpg" class="img-circle p-5" width="300">
+      </div>
+      <div fxFlex="25" fxLayoutAlign="start">
+        <h4 class="name card-title m-t-15 m-b-0">Branko Bajic</h4>
+      </div>
+      <div class="job" fxFlex="25" fxLayoutAlign="start">
+        <small>Full Stack Software Engineer</small>
+      </div>
+      <div class="hilarious-blurb text-center" fxFlex="25" fxLayoutAlign="start">
+        Hello, this is my resume disguised as a pretty personal website.
+      </div>
+    </div>
+  </div>
 </div>

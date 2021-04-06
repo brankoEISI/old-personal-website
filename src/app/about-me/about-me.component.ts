@@ -14,7 +14,7 @@ interface Contact {
 @Component({
   selector: 'app-about-me',
   templateUrl: './about-me.component.html',
-  styleUrls: ['./about-me.component.css']
+  styleUrls: ['./about-me.component.scss']
 })
 export class AboutMeComponent implements OnInit {
 
@@ -26,7 +26,7 @@ export class AboutMeComponent implements OnInit {
 			{ 
 				contactimg: 'assets/me.jpeg',
 			  contactname: 'Branko Bajic',
-				contactpost: 'Software Engineer',
+				contactpost: 'Full Stack Software Engineer',
 				contactadd: '795 Folsom Ave, Suite 600 San Francisco, CADGE 94107',
 				contactno: '(123) 456-7890',
 				contactinstagram: '254',
